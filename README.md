@@ -1,7 +1,7 @@
 # Sharif CE Semninar Template
 
 
-A copy of the rules can be found in rules.pdf, which is published by the software group of the department of Computer Engineering at Sharif University of Technology. Here's a minimal template that follows most of the rules. Feel free to use it.
+A copy of the rules can be found in [rules.pdf](./rules.pdf), which is published by the software group of the department of Computer Engineering at Sharif University of Technology. Here's a minimal template that follows most of the rules. Feel free to use it.
 
 
 - If you have any questions, please open an issue in English.
