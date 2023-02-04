@@ -20,7 +20,8 @@
 \usepackage{subcaption}
 \usepackage{titlesec}
 \usepackage{hyperref}
-\hypersetup{draft=true}
+\hypersetup{colorlinks=true, pdfstartview=FitV, linkcolor=blue, citecolor=black, plainpages=false, pdfpagelabels=true, urlcolor=blue}
+\usepackage[all]{hypcap}
 \usepackage[extrafootnotefeatures]{xepersian}
 \twocolumnfootnotes
 
@@ -28,11 +29,8 @@
 \newcolumntype{C}{>{\centering\arraybackslash}c}
 \newcolumntype{R}{>{\centering\arraybackslash}r}
 
-\newcommand{\ev}[2]{%
-    #1\endnote{
-    #1 \hspace*{\fill}  \lr{#2} \hbox to 0.5\textwidth{}
-    }
-}
+
+\newcommand{\ev}[2]{#1\endnote{#1\hspace*{\fill}  \lr{#2} \hbox to 0.5\textwidth{}}}
 
 \newcommand{\cross}{\ding{53}}
 \newcommand{\tick}{\checkmark}
@@ -104,7 +102,6 @@ number = \begin{persian} \rl{#1}\end{persian}.
 }
 
 \def\enoteformat{\rightskip=0pt \leftskip=0pt \parindent=0.5em \leavevmode\llap{\makeenmark}}
-
 
 
 \pagenumbering{gobble}
